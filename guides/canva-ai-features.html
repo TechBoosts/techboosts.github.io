@@ -7,27 +7,11 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
     
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: { colors: { dark: '#0B0F19', darker: '#05080F', primary: '#6366f1', secondary: '#a855f7', accent: '#14b8a6' }, fontFamily: { sans: ['Inter', 'sans-serif'] } }
-            }
-        }
-    </script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        .gradient-text { background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .prose h2 { color: white; font-weight: 700; font-size: 1.875rem; margin-top: 2rem; margin-bottom: 1rem; }
-        .prose h3 { color: #f8fafc; font-weight: 600; font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
-        .prose p { margin-bottom: 1.25rem; line-height: 1.75; color: #94a3b8; }
-        .prose ul, .prose ol { padding-left: 1.5rem; margin-bottom: 1.25rem; color: #94a3b8; }
-        .prose ul { list-style-type: disc; }
-        .prose ol { list-style-type: decimal; }
-        .prose li { margin-bottom: 0.5rem; }
-        .toc-sticky { position: sticky; top: 6rem; }
-    </style>
+    
+    <script src="../assets/js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="bg-dark text-slate-300 antialiased selection:bg-primary selection:text-white">
 
@@ -35,12 +19,12 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center gap-2">
-                    <a href="index.html" class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary gradient-text">TechBoosts.</a>
+                    <a href="../index.html" class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary gradient-text">TechBoosts.</a>
                 </div>
                 <nav class="hidden md:flex space-x-8">
-                    <a href="index.html#top-tools" class="text-slate-300 hover:text-white transition-colors">Công cụ AI</a>
-                    <a href="guides.html" class="text-slate-300 hover:text-white transition-colors">Hướng dẫn</a>
-                    <a href="tools.html" class="text-slate-300 hover:text-white transition-colors">Công cụ tôi dùng</a>
+                    <a href="../index.html#top-tools" class="text-slate-300 hover:text-white transition-colors">Công cụ AI</a>
+                    <a href="../guides.html" class="text-slate-300 hover:text-white transition-colors">Hướng dẫn</a>
+                    <a href="../tools.html" class="text-slate-300 hover:text-white transition-colors">Công cụ tôi dùng</a>
                 </nav>
             </div>
         </div>
@@ -50,9 +34,9 @@
         
         <nav class="flex text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-2">
-                <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                <li><a href="../index.html" class="hover:text-white transition-colors">Home</a></li>
                 <li><span class="mx-2">/</span></li>
-                <li><a href="guides.html" class="hover:text-white transition-colors">Hướng dẫn</a></li>
+                <li><a href="../guides.html" class="hover:text-white transition-colors">Hướng dẫn</a></li>
                 <li><span class="mx-2">/</span></li>
                 <li class="text-slate-200" aria-current="page">Top 5 Tính năng AI Canva</li>
             </ol>
@@ -102,11 +86,11 @@
                 <div class="mt-16 pt-8 border-t border-slate-800">
                     <h3 class="text-2xl font-bold text-white mb-6">Có thể bạn quan tâm</h3>
                     <div class="flex flex-col gap-4">
-                        <a href="review-canva-pro.html" class="group bg-darker border border-slate-800 rounded-xl p-4 hover:border-slate-600 transition-colors flex gap-4 items-center">
+                        <a href="../reviews/canva-pro.html" class="group bg-darker border border-slate-800 rounded-xl p-4 hover:border-slate-600 transition-colors flex gap-4 items-center">
                             <div class="w-12 h-12 rounded-lg bg-blue-900/30 text-blue-400 flex items-center justify-center text-xl flex-shrink-0 group-hover:scale-110 transition-transform">🖌️</div>
                             <h4 class="text-slate-200 font-medium text-sm md:text-base group-hover:text-primary transition-colors">Đánh Giá Canva Pro 2026: Có Thực Sự Đáng Tiền Nâng Cấp Không?</h4>
                         </a>
-                        <a href="guide-canva-thumbnail.html" class="group bg-darker border border-slate-800 rounded-xl p-4 hover:border-slate-600 transition-colors flex gap-4 items-center">
+                        <a href="canva-thumbnail.html" class="group bg-darker border border-slate-800 rounded-xl p-4 hover:border-slate-600 transition-colors flex gap-4 items-center">
                             <div class="w-12 h-12 rounded-lg bg-pink-900/30 text-pink-400 flex items-center justify-center text-xl flex-shrink-0 group-hover:scale-110 transition-transform">🎯</div>
                             <h4 class="text-slate-200 font-medium text-sm md:text-base group-hover:text-primary transition-colors">Hướng Dẫn Thiết Kế Thumbnail Youtube "Triệu View" Bằng Canva</h4>
                         </a>
@@ -138,3 +122,4 @@
     </footer>
 </body>
 </html>
+
