@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn Thiết Kế Thumbnail Youtube Triệu View Bằng Canva - TechBoosts</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: { colors: { dark: '#0B0F19', darker: '#05080F', primary: '#6366f1', secondary: '#a855f7', accent: '#14b8a6' }, fontFamily: { sans: ['Inter', 'sans-serif'] } }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text { background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .prose h2 { color: white; font-weight: 700; font-size: 1.875rem; margin-top: 2rem; margin-bottom: 1rem; }
+        .prose h3 { color: #f8fafc; font-weight: 600; font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .prose p { margin-bottom: 1.25rem; line-height: 1.75; color: #94a3b8; }
+        .prose ul, .prose ol { padding-left: 1.5rem; margin-bottom: 1.25rem; color: #94a3b8; }
+        .prose ul { list-style-type: disc; }
+        .prose ol { list-style-type: decimal; }
+        .prose li { margin-bottom: 0.5rem; }
+        .toc-sticky { position: sticky; top: 6rem; }
+    </style>
+</head>
+<body class="bg-dark text-slate-300 antialiased selection:bg-primary selection:text-white">
+
+    <header class="fixed w-full top-0 z-50 bg-dark/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-2">
+                    <a href="index.html" class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary gradient-text">TechBoosts.</a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html#top-tools" class="text-slate-300 hover:text-white transition-colors">Công cụ AI</a>
+                    <a href="guides.html" class="text-slate-300 hover:text-white transition-colors">Hướng dẫn</a>
+                    <a href="tools.html" class="text-slate-300 hover:text-white transition-colors">Công cụ tôi dùng</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <nav class="flex text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-2">
+                <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                <li><span class="mx-2">/</span></li>
+                <li><a href="guides.html" class="hover:text-white transition-colors">Hướng dẫn</a></li>
+                <li><span class="mx-2">/</span></li>
+                <li class="text-slate-200" aria-current="page">Làm Thumbnail Youtube</li>
+            </ol>
+        </nav>
+
+        <div class="flex flex-col lg:flex-row gap-10">
+            <article class="lg:w-2/3">
+                
+                <header class="mb-10">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="bg-pink-500/10 text-pink-400 text-xs font-semibold px-3 py-1 rounded-full">Tutorial</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">Hướng Dẫn Thiết Kế Thumbnail Youtube "Triệu View" Bằng Canva</h1>
+                    
+                    <div class="flex items-center gap-4 border-b border-slate-800 pb-6 mb-6">
+                        <img src="https://ui-avatars.com/api/?name=Admin+Tech&background=6366f1&color=fff" alt="Author" class="w-12 h-12 rounded-full border border-slate-700">
+                        <div>
+                            <p class="font-medium text-white">Bởi Admin TechBoosts</p>
+                            <p class="text-sm text-slate-400">Content Creator & Designer</p>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="prose max-w-none">
+                    <p>Thumbnail (Ảnh thu nhỏ) quyết định đến 80% tỷ lệ click (CTR) của một video YouTube. Một video hay đến mấy nhưng Thumbnail tẻ nhạt thì sẽ không ai bấm vào xem. Hôm nay, TechBoosts sẽ hướng dẫn bạn cách tự tay thiết kế những chiếc Thumbnail "chuẩn YouTuber" chỉ bằng công cụ <strong>Canva</strong> – cực kỳ nhanh chóng mà không cần biết dùng Photoshop.</p>
+                    
+                    <h2 id="chuan-bi">1. Chuẩn bị nguyên liệu</h2>
+                    <p>Trước khi bắt tay vào thiết kế, bạn cần có:</p>
+                    <ul>
+                        <li>Tài khoản <a href="https://partner.canva.com/c/YOUR_CANVA_ID" class="text-blue-400 font-bold hover:underline" target="_blank">Canva Pro</a> (Khuyên dùng để có thể sử dụng tính năng Xóa Nền tự động vô cùng quan trọng).</li>
+                        <li>Một bức ảnh chân dung của bạn có biểu cảm rõ ràng (ngạc nhiên, vui sướng, tò mò).</li>
+                        <li>Tiêu đề (Text) thật ngắn gọn, chữ to, dễ đọc trên điện thoại. <em>Ví dụ: Đừng viết "Hướng dẫn chi tiết cách làm món thịt kho tàu", hãy viết "THỊT KHO TÀU SIÊU NGON".</em></li>
+                    </ul>
+
+                    <h2 id="cac-buoc">2. Các bước thực hiện chi tiết</h2>
+                    
+                    <h3>Bước 1: Tạo không gian làm việc</h3>
+                    <p>Mở Canva lên, chọn <strong>Tạo thiết kế</strong> (Create a design) và gõ tìm kiếm "Hình thu nhỏ YouTube" (YouTube Thumbnail). Kích thước chuẩn mặc định sẽ là 1280 x 720 pixel.</p>
+                    
+                    <h3>Bước 2: Xóa nền và chèn ảnh chân dung</h3>
+                    <p>Tải bức ảnh chân dung của bạn lên. Bấm vào ảnh, chọn <strong>Sửa hình ảnh</strong> (Edit image) -> chọn <strong>Xóa nền</strong> (Background Remover). Đây là tính năng độc quyền của Canva Pro, giúp bạn tách nền chỉ trong 3 giây cực kỳ sắc nét.</p>
+                    <p>Mẹo: Để nhân vật nổi bật hơn, hãy thêm <em>Hiệu ứng bóng lấp lánh (Glow shadow)</em> viền trắng xung quanh người.</p>
+
+                    <h3>Bước 3: Chọn nền (Background) tương phản</h3>
+                    <p>Sử dụng một background có màu sắc tương phản mạnh với ảnh chân dung của bạn. Nếu áo bạn màu tối, hãy chọn nền sáng hoặc có màu Neon (vàng, xanh lá dạ quang). Bạn có thể vào mục <strong>Thành phần (Elements)</strong> và tìm từ khóa "Neon background" hoặc "Speed lines".</p>
+
+                    <h3>Bước 4: Thêm Text (Chữ) "đập vào mắt"</h3>
+                    <p>Yếu tố quan trọng nhất của Thumbnail là chữ phải cực kỳ dễ đọc khi thu nhỏ trên màn hình điện thoại. Hãy dùng các font chữ dày, mạnh mẽ như: <strong>Anton, Montserrat ExtraBold, hoặc Impact</strong>.</p>
+                    <p>Áp dụng hiệu ứng: Bấm vào text, chọn <em>Hiệu ứng (Effects) -> Nâng lên (Lift)</em> hoặc <em>Viền (Outline)</em> màu đen để chữ nổi bật trên mọi nền ảnh.</p>
+
+                    <h3>Bước 5: Thêm Icon/Sticker tăng cảm xúc</h3>
+                    <p>Nếu video nói về tiền, hãy chèn icon "Money", mũi tên đỏ hướng lên (Red arrow up). Nếu làm về ẩm thực, hãy thêm các Emoji biểu cảm. Những chi tiết nhỏ này kích thích sự tò mò của não bộ rất mạnh.</p>
+
+                    <h2 id="meo-nho">3. Mẹo nhỏ để test độ hiệu quả</h2>
+                    <p>Trước khi xuất file (Download), hãy <strong>thu nhỏ màn hình Canva của bạn xuống mức 10%</strong> (bằng đúng kích thước Thumbnail hiển thị trên App YouTube điện thoại). Nếu ở kích thước đó bạn vẫn đọc được chữ và nhìn rõ biểu cảm khuôn mặt, xin chúc mừng, bạn đã có một Thumbnail hoàn hảo!</p>
+
+                    <p class="mt-8 text-center">
+                        <a href="https://partner.canva.com/c/YOUR_CANVA_ID" class="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-indigo-600 transition-colors inline-block" target="_blank">Mở Canva & Bắt Đầu Thiết Kế Ngay</a>
+                    </p>
+                </div>
+
+                <!-- BÀI VIẾT LIÊN QUAN -->
+                <div class="mt-16 pt-8 border-t border-slate-800">
+                    <h3 class="text-2xl font-bold text-white mb-6">Có thể bạn quan tâm</h3>
+                    <div class="flex flex-col gap-4">
+                        <a href="review-canva-pro.html" class="group bg-darker border border-slate-800 rounded-xl p-4 hover:border-slate-600 transition-colors flex gap-4 items-center">
+                            <div class="w-12 h-12 rounded-lg bg-blue-900/30 text-blue-400 flex items-center justify-center text-xl flex-shrink-0 group-hover:scale-110 transition-transform">🖌️</div>
+                            <h4 class="text-slate-200 font-medium text-sm md:text-base group-hover:text-primary transition-colors">Đánh Giá Canva Pro 2026: Có Thực Sự Đáng Tiền Nâng Cấp Không?</h4>
+                        </a>
+                        <a href="guide-canva-ai-features.html" class="group bg-darker border border-slate-800 rounded-xl p-4 hover:border-slate-600 transition-colors flex gap-4 items-center">
+                            <div class="w-12 h-12 rounded-lg bg-indigo-900/30 text-indigo-400 flex items-center justify-center text-xl flex-shrink-0 group-hover:scale-110 transition-transform">✨</div>
+                            <h4 class="text-slate-200 font-medium text-sm md:text-base group-hover:text-primary transition-colors">Top 5 Tính Năng AI "Thần Thánh" Của Canva Bạn Chưa Biết</h4>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <aside class="lg:w-1/3">
+                <div class="toc-sticky">
+                    <div class="bg-darker border border-slate-800 rounded-2xl p-6 mb-6">
+                        <h3 class="font-bold text-white mb-4">Mục lục</h3>
+                        <nav class="flex flex-col space-y-2.5 text-sm">
+                            <a href="#chuan-bi" class="text-slate-400 hover:text-white transition-colors">1. Chuẩn bị nguyên liệu</a>
+                            <a href="#cac-buoc" class="text-slate-400 hover:text-white transition-colors pl-4 border-l border-slate-700">2. Các bước thực hiện chi tiết</a>
+                            <a href="#meo-nho" class="text-slate-400 hover:text-white transition-colors">3. Mẹo test độ hiệu quả</a>
+                        </nav>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="border-t border-slate-800 bg-darker py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>&copy; 2026 TechBoosts. Affiliate Disclosure: Website có chứa link Affiliate.</p>
+        </div>
+    </footer>
+</body>
+</html>
